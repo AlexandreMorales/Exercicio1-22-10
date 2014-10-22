@@ -14,17 +14,14 @@ public class Exercicio8 {
 		ArrayA.add(r.nextInt(10));
 		ArrayA.add(r.nextInt(10));
 		ArrayA.add(r.nextInt(10));
-
 		ArrayB.add(r.nextInt(10));
 		ArrayB.add(r.nextInt(10));
 		ArrayB.add(r.nextInt(10));
 		ArrayB.add(r.nextInt(10));
 		ArrayB.add(r.nextInt(10));
 		ArrayB.add(r.nextInt(10));
-
 		System.out.println("ArrayA :" + ArrayA.toString());
 		System.out.println("ArrayB :" + ArrayB.toString());
-
 		for (int i = 0; i < ArrayA.size(); i++) {
 			for (int j = 0; j < ArrayB.size(); j++) {
 				if (!ArrayC.contains(ArrayA.get(i))) {
